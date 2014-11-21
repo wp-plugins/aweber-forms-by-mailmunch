@@ -7,7 +7,7 @@ Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-AWeber Forms by MailMunch allows you to painlessly add AWeber sign up forms to your WordPress site as a popup, embedded widget or sticky top bar.
+The #1 AWeber plugin to get more email subscribers. Easily add AWeber sign-up forms as popup, embedded widget or sticky top bar.
 
 == Description ==
 
@@ -15,12 +15,12 @@ AWeber Forms by MailMunch allows you to painlessly add AWeber sign up forms to y
 
 What is [AWeber](http://www.aweber.com/)? AWeber is one of the best email marketing tools. Signup up for a [FREE Trial Account](http://www.aweber.com/signup/) and see for yourself!
 
-We have put together our version of an improved signup plugin for AWeber users to proactively sign-up new subscribers to their newsletter list.  Our form offers the same basic features that AWeber's official plugin offers, but also much more.  In addition to the form, analytics will help you track the number of form views and subscriptions.
+Our improved signup plugin for AWeber will proactively sign-up new subscribers to your newsletter list. Our forms offer the same basic features that AWeber's official plugin, but also much more. In addition to the form, analytics will help you track the number of form views and subscriptions.
 
-Our templates have been carefully designed, so they can be customer-friendly and easy to set-up.  You'll have some basic customizations available from within the plugin.
+= Sign-Up Forms =
+Easily create sign-up forms for your AWeber list and display it as a popup, embedded widget or a top bar.
 
-**Features**
-
+= Features =
 * Mobile optimized form
 * Easier sign-ups to your AWeber newsletter
 * Automatic synching with your AWeber account
@@ -31,8 +31,8 @@ Our templates have been carefully designed, so they can be customer-friendly and
 * Use AWeber Interest Group/Segments
 * Add AWeber forms to posts, pages, or categories
 * Set forms to single or double opt-in
-* Customize the success message
-* Customize the submit button text
+* Send AWeber welcome email
+* Customize the success message and submit button text
 * Redirect users to a page on submission
 * Un-subscribe users from AWeber lists
 * View subscriber AWeber profiles
@@ -40,7 +40,7 @@ Our templates have been carefully designed, so they can be customer-friendly and
 * Display multiple forms on a single page
 * Easily add forms to pages and posts with a button in the page/post editor
 
-After installation and creating your account, the plugin will guide you through connecting with AWeber, selecting your List from our service, and then adding the form to your site. The time from starting installation to have the form on your site should be less than 5 minutes - absolutely everything can be done via our user friendly GUI - no file editing at all!
+After installation and creating your account, the plugin will guide you through connecting with AWeber, selecting your AWeber List from our service, and then adding the form to your site. The time from starting installation to have the form on your site should be less than 5 minutes - absolutely everything can be done via our user friendly GUI - no file editing at all!
 
 == Installation ==
 
@@ -61,6 +61,11 @@ If you are using Wordpress v3.0 or higher, you can use the short-code given duri
 
 == Frequently Asked Questions ==
 
+= What in the world is AWeber? =
+[AWeber](http://www.aweber.com/) is full of useful, powerful email marketing features that are easy to use whether you're an email marketing expert, or a small business just getting started.
+
+To learn more, just check out: [AWeber](http://www.aweber.com/)
+
 = Do I need to have a AWeber Account? =
 Yes, you can register for one for free at [AWeber](https://aweber.com/ "AWeber Signup").
 
@@ -78,36 +83,6 @@ After you connect your AWeber account, the plugin will fetch all of your AWeber 
 
 = How do I add the AWeber sign up forms to my site? =
 We offer a variety of forms: Popups, Embedded, Top Bar, etc. You can choose which pages, posts or categories to show it on. You can also use a shortcode to add a form to a specific area in a page or post. Everything is done visually.
-
-= How can I translate this plugin? =
-Easy AWeber Forms is now translated into multiple languages:
-
-* Arabic
-* Chinese
-* English
-* French
-* German
-* Greek
-* Hebrew
-* Hindi
-* Hong Kong
-* Italian
-* Japanese
-* Korean
-* Persian
-* Portuguese (Brazilian)
-* Portuguese (European)
-* Romanian
-* Russian
-* Spanish
-* Swedish
-* Taiwanese
-* Tamil
-* Urdu
-* Vietnamese
-* Welsh
-
-Read the Codex article [Installing WordPress in Your Language](http://codex.wordpress.org/Installing_WordPress_in_Your_Language) for more information.
 
 = Does this plugin slow down my site? =
 Absolutely not. MailMunch is designed with high performance and scalability in mind. It's completely asynchronous and hosted on Amazon's highly scalable infrastructure. Some of our customers have very high traffic websites.
@@ -135,11 +110,14 @@ Why people use AWeber
 2. The second step is configuring your optin form for things like when to show it, how often to show it, and where to go after they subscribe
 3. This is the integration step where you can connect your AWeber account
 4. This is the final step where you can publish your optin form to all or selected posts, categories or pages
-5. And finally, we have the optin form working live on your blog - increasing your subscribers :)
-6. An example from a user site
-7. Another example from a user site
+5. And finally, we have the optin form working live on your blog - increasing your AWeber subscribers :)
+6. A AWeber connected form example from a user site
+7. Another AWeber connected example from a user site
 
 == Changelog ==
+
+= 1.0.2 =
+* More AWeber features
 
 = 1.0.1 =
 * The first version of AWeber Forms WordPress plugin by MailMunch
