@@ -1,4 +1,4 @@
-===  Aweber Forms by MailMunch ===
+===  AWeber Forms by MailMunch ===
 Contributors: mailmunch
 Tags: aweber, AWeber form, AWeber Newsletter form, AWeber plugin, newsletter, newsletter form, newsletter form plugin, optin form, form, signup, signup forms, signup form, widget, email form, leads
 Requires at least: 3.0.1
