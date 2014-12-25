@@ -13,7 +13,7 @@ class AweberMailmunchHelpers {
     }
 
     if (empty($aw_mm_password)) {
-      update_option("aw_mm_user_password", uniqid());
+      update_option("aw_mm_user_password", base64_encode(uniqid()));
     }
 
     $aw_mm_email = get_option("aw_mm_user_email");
