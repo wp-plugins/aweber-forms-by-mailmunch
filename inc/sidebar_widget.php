@@ -100,11 +100,11 @@ class AW_MM_Sidebar_Widget extends WP_Widget {
             </select>
         </p>
 
-        <p><a href="//<?php echo AWEBER_MAILMUNCH_URL ?>/sso?email=<?php echo $aw_mm_user_email ?>&password=<?php echo $aw_mm_user_password ?>&next_url=<?php echo urlencode("/sites/".$aw_mm_data["site_id"]."/widgets/new?wp_layout=1&widget_type=Sidebar") ?>" target="_blank">Create New Sidebar Form</a></p>
+        <p><a href="//<?php echo AWEBER_MAILMUNCH_URL ?>/sso?email=<?php echo urlencode($aw_mm_user_email) ?>&password=<?php echo urlencode($aw_mm_user_password) ?>&next_url=<?php echo urlencode("/sites/".$aw_mm_data["site_id"]."/widgets/new?wp_layout=1&widget_type=Sidebar") ?>" target="_blank">Create New Sidebar Form</a></p>
         <?php 
         } else {
         ?>
-        <p>No sidebar forms found. <a href="//<?php echo AWEBER_MAILMUNCH_URL ?>/sso?email=<?php echo $aw_mm_user_email ?>&password=<?php echo $aw_mm_user_password ?>&next_url=<?php echo urlencode("/sites/".$aw_mm_data["site_id"]."/widgets/new?wp_layout=1&widget_type=Sidebar") ?>" target="_blank">Create Your First One</a></p>
+        <p>No sidebar forms found. <a href="//<?php echo AWEBER_MAILMUNCH_URL ?>/sso?email=<?php echo urlencode($aw_mm_user_email) ?>&password=<?php echo urlencode($aw_mm_user_password) ?>&next_url=<?php echo urlencode("/sites/".$aw_mm_data["site_id"]."/widgets/new?wp_layout=1&widget_type=Sidebar") ?>" target="_blank">Create Your First One</a></p>
         <?php
         }
 
