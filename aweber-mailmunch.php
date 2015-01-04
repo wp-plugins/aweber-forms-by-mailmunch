@@ -3,7 +3,7 @@
   Plugin Name: AWeber Forms by MailMunch
   Plugin URI: http://www.mailmunch.co
   Description: The AWeber plugin allows you to quickly and easily add signup forms for your AWeber lists. Popup, Embedded, Top Bar and a variety of different options available.
-  Version: 1.0.4
+  Version: 1.0.5
   Author: MailMunch
   Author URI: http://www.mailmunch.co
   License: GPL2
@@ -14,7 +14,7 @@
   require_once( plugin_dir_path( __FILE__ ) . 'inc/sidebar_widget.php' );
 
   define( 'AWEBER_MAILMUNCH_SLUG', "aweber-mailmunch");
-  define( 'AWEBER_MAILMUNCH_VER', "1.0.4");
+  define( 'AWEBER_MAILMUNCH_VER', "1.0.5");
   define( 'AWEBER_MAILMUNCH_URL', "www.mailmunch.co");
 
   // Create unique WordPress instance ID
@@ -322,7 +322,7 @@
         <div class="form-group">
           <input type="hidden" name="action" value="save_settings" />
 
-          <select name="mailmunch_data[site_id]">
+          <select name="aw_mm_data[site_id]">
             <?php foreach ($sites as $site) { ?>
             <option value="<?php echo $site->id ?>"><?php echo $site->name ?></option>
             <?php } ?>
