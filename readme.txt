@@ -15,6 +15,8 @@ The #1 AWeber plugin to get more email subscribers. Easily add AWeber sign-up fo
 
 What is [AWeber](http://www.aweber.com/)? AWeber is one of the best email marketing tools. Signup up for a [FREE Trial Account](http://www.aweber.com/signup/) and see for yourself!
 
+[youtube http://www.youtube.com/watch?v=B5DKWg6MKA4]
+
 Our improved signup plugin for AWeber will proactively sign-up new subscribers to your newsletter list. Our forms offer the same basic features that AWeber's official plugin, but also much more. In addition to the form, analytics will help you track the number of form views and subscriptions.
 
 = Sign-Up Forms =
