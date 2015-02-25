@@ -3,7 +3,7 @@
   Plugin Name: AWeber Forms by MailMunch
   Plugin URI: http://www.mailmunch.co
   Description: The AWeber plugin allows you to quickly and easily add signup forms for your AWeber lists. Popup, Embedded, Top Bar and a variety of different options available.
-  Version: 1.0.5
+  Version: 1.0.6
   Author: MailMunch
   Author URI: http://www.mailmunch.co
   License: GPL2
@@ -14,7 +14,7 @@
   require_once( plugin_dir_path( __FILE__ ) . 'inc/sidebar_widget.php' );
 
   define( 'AWEBER_MAILMUNCH_SLUG', "aweber-mailmunch");
-  define( 'AWEBER_MAILMUNCH_VER', "1.0.5");
+  define( 'AWEBER_MAILMUNCH_VER', "1.0.6");
   define( 'AWEBER_MAILMUNCH_URL', "www.mailmunch.co");
 
   // Create unique WordPress instance ID
@@ -74,9 +74,8 @@
     if (is_author()) { echo "_mmunch['author'] = true;"; }
     if (is_tag()) { echo "_mmunch['tag'] = true;"; }
     if (is_attachment()) { echo "_mmunch['attachment'] = true;"; }
-
-    echo "(function(){ setTimeout(function(){ var d = document, f = d.getElementsByTagName('script')[0], s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '".$aw_mm_data["script_src"]."'; f.parentNode.insertBefore(s, f); }, 1); })();";
     echo "</script>";
+    echo('<script data-cfasync="false" src="//s3.amazonaws.com/mailmunch/static/site.js" id="mailmunch-script" data-mailmunch-site-id="'.$aw_mm_data["site_id"].'" async></script>');
   }
 
   add_action('init', 'aw_mm_assets');
@@ -85,11 +84,11 @@
     $aw_mm_data = unserialize(get_option("aw_mm_data"));
     if (count($aw_mm_data) == 0) return;
 
-    if (function_exists('wp_footer')) {
-      add_action( 'wp_footer', 'aw_mm_load_asset_code' ); 
-    }
-    elseif (function_exists('wp_head')) {
+    if (function_exists('wp_head')) {
       add_action( 'wp_head', 'aw_mm_load_asset_code' ); 
+    }
+    elseif (function_exists('wp_footer')) {
+      add_action( 'wp_footer', 'aw_mm_load_asset_code' ); 
     }
   }
 
